@@ -1,0 +1,859 @@
+@import url('https://fonts.googleapis.com/css2?family=Integral+CF:wght@700&family=Satoshi:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #111;
+    min-height: 100vh;
+}
+
+h1, h2, h3, .logotip-zoor, .ortadagi-katta-yozuv {
+    font-family: 'Integral CF', sans-serif;
+}
+
+.tepa-qora-narsa {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.tepa-qora-narsa a {
+    color: white;
+    text-decoration: underline;
+}
+
+.bosh-qism-kalla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 60px;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.logotip-zoor {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.yol-yolakay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.yol-yolakay a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.qidirish-joyi {
+    background: #F0F0F0;
+    padding: 12px 18px;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    width: 420px;
+    max-width: 100%;
+}
+
+.qidirish-joyi input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.ikonkalar-qismi {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ikonka-btn {
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #111;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.icon-badge {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    min-width: 18px;
+    height: 18px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #FF3333;
+}
+
+.yon-oyna-qulf {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 380px;
+    max-width: 100%;
+    height: 100vh;
+    background: white;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.12);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.yon-oyna-ochiq {
+    right: 0;
+}
+
+.oyna-kalla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+}
+
+.oyna-kalla button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.katta-bosh-rasm {
+    background: #F2F0F1;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 620px;
+}
+
+.chap-taraf-yozuvlar {
+    width: 48%;
+}
+
+.chap-taraf-yozuvlar h1 {
+    font-size: 54px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+}
+
+.chap-taraf-yozuvlar p {
+    max-width: 520px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4d4d4d;
+}
+
+.qop-qora-knopka {
+    background: black;
+    color: white;
+    padding: 16px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.raqamlar-statistika {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.raqamlar-statistika div {
+    min-width: 130px;
+}
+
+.raqamlar-statistika h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.ong-taraf-rasmlar {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.model-rasmi {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.brendlar-qora-chiziq {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 26px 40px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.yangi-kelgan-mollar {
+    padding: 52px 60px;
+    text-align: center;
+}
+
+.ortadagi-katta-yozuv {
+    font-size: 44px;
+    margin-bottom: 32px;
+}
+
+.tovarlar-gridi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bitta-tovar-qutisi {
+    text-align: left;
+    width: 290px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 24px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bitta-tovar-qutisi:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+}
+
+.bitta-tovar-qutisi img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+}
+
+.tovar-nomi {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 16px 18px 10px;
+}
+
+.narxlar-joyi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 0 18px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.eski-narx {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skidka-foizi {
+    color: #FF3333;
+    background: rgba(255, 51, 51, 0.12);
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.savatga-urish-btn, .like-bosish-btn {
+    margin: 14px 18px 0;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    width: calc(50% - 16px);
+    color: white;
+    font-weight: 700;
+}
+
+.savatga-urish-btn {
+    background: #111;
+}
+
+.like-bosish-btn {
+    background: #FF3333;
+}
+
+.korsatish-hammasini-btn {
+    margin-top: 40px;
+    padding: 16px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: transparent;
+    border-radius: 62px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.yon-ichki-joy {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.yon-oyna-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+    gap: 10px;
+}
+
+.yon-oyna-item p {
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 170px;
+}
+
+.yon-oyna-item button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.kiyim-uslublari-seksiyasi {
+    padding: 0 60px 60px;
+}
+
+.kulrang-katta-quti {
+    background: #F2F0F1;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.uslublar-rasmlari-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.uslub-karta {
+    background: white;
+    border-radius: 20px;
+    padding: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+}
+
+.katta-karta {
+    grid-column: span 2;
+}
+
+.xursand-odamlar-qismi {
+    padding: 60px 60px 0;
+}
+
+.chapdagi-katta-yozuv {
+    margin-bottom: 36px;
+    font-size: 42px;
+}
+
+.otzivlar-gridi {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.uslub-karta-kichkina-karta img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bitta-otziv {
+    background: #fff;
+    border-radius: 24px;
+    padding: 28px;
+    border: 1px solid #f1f1f1;
+}
+
+.yulduzlar {
+    margin-bottom: 14px;
+}
+
+.qora-kattakon-quti-obuna {
+    background: #111;
+    color: white;
+    padding: 42px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.obuna-yozuvlar h2 {
+    font-size: 32px;
+}
+
+.obuna-inputlar {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.oq-input {
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    width: 340px;
+    max-width: 100%;
+}
+
+.oq-input input {
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.oq-knopka-obuna {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 62px;
+    padding: 16px 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.pastki-axlat-qutisi {
+    padding: 60px 60px 40px;
+}
+
+.footer-tepa-qism {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.footer-birinchi-ustun p {
+    margin: 18px 0;
+    color: #4d4d4d;
+    line-height: 1.8;
+    max-width: 320px;
+}
+
+.ijtimoiy-tarmoqlar {
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.footer-ustun h4 {
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.footer-ustun a {
+    display: block;
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-pastki-chiziq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #4d4d4d;
+    border-top: 1px solid #f1f1f1;
+    padding-top: 24px;
+}
+
+.tolov-turlari i {
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+    .bosh-qism-kalla {
+        padding: 22px 30px;
+    }
+
+    .katta-bosh-rasm {
+        padding: 0 30px;
+        min-height: auto;
+    }
+
+    .chap-taraf-yozuvlar, .ong-taraf-rasmlar {
+        width: 100%;
+    }
+
+    .raqamlar-statistika {
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .yangi-kelgan-mollar {
+        padding: 50px 30px;
+    }
+
+    .kiyim-uslublari-seksiyasi,
+    .xursand-odamlar-qismi,
+    .qora-kattakon-quti-obuna,
+    .pastki-axlat-qutisi {
+        padding: 50px 30px;
+    }
+
+    .footer-tepa-qism {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .bosh-qism-kalla {
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .qidirish-joyi {
+        width: 100%;
+    }
+
+    .ikonkalar-qismi {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .tovarlar-gridi {
+        gap: 18px;
+    }
+
+    .bitta-tovar-qutisi {
+        width: calc(50% - 10px);
+    }
+
+    .uslublar-rasmlari-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .katta-bosh-rasm {
+        flex-direction: column-reverse;
+        padding: 0 18px 40px;
+    }
+
+    .chap-taraf-yozuvlar h1 {
+        font-size: 40px;
+    }
+
+    .chap-taraf-yozuvlar p {
+        font-size: 15px;
+    }
+
+    .tovarlar-gridi {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .bitta-tovar-qutisi {
+        width: 100%;
+    }
+
+    .uslublar-rasmlari-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-tepa-qism,
+    .qora-kattakon-quti-obuna,
+    .pastki-axlat-qutisi {
+        padding: 30px 18px;
+    }
+}
+
+/* Chiziq */
+.ajratuvchi-chiziq {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Dress Style */
+.kiyim-uslublari-seksiyasi {
+    padding: 0 100px;
+    margin-top: 50px;
+}
+.kulrang-katta-quti {
+    background: #F0F0F0;
+    border-radius: 40px;
+    padding: 70px;
+    text-align: center;
+}
+.uslublar-rasmlari-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+.uslub-karta {
+    background: white;
+    height: 289px;
+    border-radius: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 25px 35px;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-color: #E0E0E0; /* Rasmlar o'rniga rang */
+}
+.kichkina-karta {
+    width: calc(35% - 10px);
+}
+.katta-karta {
+    width: calc(65% - 10px);
+}
+
+/* Happy Customers */
+.xursand-odamlar-qismi {
+    padding: 80px 100px;
+}
+.chapdagi-katta-yozuv {
+    font-family: "Integral CF", sans-serif;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.otzivlar-gridi {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bitta-otziv {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    width: 32%;
+}
+.yulduzlar {
+    color: #FFC633;
+    margin-bottom: 15px;
+}
+.bitta-otziv h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bitta-otziv p {
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+}
+
+/* Newsletter quti */
+.qora-kattakon-quti-obuna {
+    background: black;
+    color: white;
+    margin: 0 100px;
+    border-radius: 20px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 70px; /* footerga minishi uchun */
+}
+.obuna-yozuvlar {
+    width: 50%;
+}
+.obuna-yozuvlar h2 {
+    font-family: "Integral CF", sans-serif;
+    font-size: 40px;
+    line-height: 1.1;
+}
+.obuna-inputlar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.oq-input {
+    background: white;
+    border-radius: 62px;
+    width: 100%;
+}
+.oq-input input {
+    color: black;
+}
+.oq-knopka-obuna {
+    background: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Footer */
+.pastki-axlat-qutisi {
+    background: #F0F0F0;
+    padding: 140px 100px 50px 100px; /* Tepadan joy tashlash obuna qutisi uchun */
+}
+.footer-tepa-qism {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+.footer-birinchi-ustun {
+    width: 25%;
+}
+.footer-birinchi-ustun p {
+    color: rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.ijtimoiy-tarmoqlar i {
+    font-size: 20px;
+    margin-right: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.footer-ustun h4 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.footer-ustun a {
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.footer-pastki-chiziq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.tolov-turlari i {
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+
+/* Asosiy konteynerlar uchun */
+.tovarlar-gridi {
+    display: flex;
+    flex-wrap: wrap; /* Bu elementlar sig'masa keyingi qatorga o'tkazadi */
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bitta-tovar-qutisi {
+    flex: 1 1 250px; /* Har bir tovar kamida 250px joy egallaydi */
+    max-width: 290px;
+}
+
+/* Katta qismlar */
+.katta-bosh-rasm {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    height: auto;
+    min-height: 500px;
+}
+
+.chap-taraf-yozuvlar, .ong-taraf-rasmlar {
+    flex: 1 1 300px; /* Mobil qurilmalarda ustma-ust tushadi */
+}
+
+/* Footer va Gridlar */
+.footer-tepa-qism {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-ustun {
+    flex: 1 1 150px; /* Footer ustunlari avtomatik sig'adi */
+}
+
+.uslublar-rasmlari-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.uslub-karta {
+    flex: 1 1 300px; /* Kichik ekranda to'liq kenglikka ega bo'ladi */
+}
+
+/* Obuna qutisi */
+.qora-kattakon-quti-obuna {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    gap: 20px;
+}
+
+.obuna-yozuvlar, .obuna-inputlar {
+    flex: 1 1 300px;
+}

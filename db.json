@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt with Tape Details",
+      "price": 120,
+      "rating": 4.5,
+      "image": "./img/Frame 33.png",
+      "discount": 0
+    },
+    {
+      "id": 2,
+      "title": "Skinny Fit Jeans",
+      "price": 240,
+      "oldPrice": 260,
+      "rating": 3.5,
+      "image": "./img/Frame 33.png",
+      "discount": 20
+    }
+  ]
+}
