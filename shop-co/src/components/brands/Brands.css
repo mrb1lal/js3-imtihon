@@ -1,0 +1,19 @@
+.brendlar-qora-chiziq {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 26px 40px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .brendlar-qora-chiziq {
+        padding: 20px;
+        font-size: 18px;
+        gap: 12px;
+    }
+}

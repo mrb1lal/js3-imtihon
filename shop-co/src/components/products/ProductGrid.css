@@ -1,0 +1,40 @@
+.yangi-kelgan-mollar {
+    padding: 52px 60px;
+    text-align: center;
+}
+
+.ortadagi-katta-yozuv {
+    font-size: 44px;
+    margin-bottom: 32px;
+    font-family: 'Integral CF', sans-serif;
+}
+
+.tovarlar-gridi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.korsatish-hammasini-btn {
+    margin-top: 40px;
+    padding: 16px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: transparent;
+    border-radius: 62px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .yangi-kelgan-mollar {
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tovarlar-gridi {
+        gap: 18px;
+    }
+}

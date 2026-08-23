@@ -1,0 +1,98 @@
+.katta-bosh-rasm {
+    background: #F2F0F1;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 620px;
+    flex-wrap: wrap;
+}
+
+.chap-taraf-yozuvlar {
+    width: 48%;
+    min-width: 300px;
+}
+
+.chap-taraf-yozuvlar h1 {
+    font-size: 54px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    font-family: 'Integral CF', sans-serif;
+}
+
+.chap-taraf-yozuvlar p {
+    max-width: 520px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4d4d4d;
+}
+
+.qop-qora-knopka {
+    background: black;
+    color: white;
+    padding: 16px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.raqamlar-statistika {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.raqamlar-statistika div {
+    min-width: 130px;
+}
+
+.raqamlar-statistika h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-family: 'Integral CF', sans-serif;
+}
+
+.ong-taraf-rasmlar {
+    width: 45%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.model-rasmi {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .katta-bosh-rasm {
+        padding: 0 30px;
+        min-height: auto;
+    }
+    .chap-taraf-yozuvlar, .ong-taraf-rasmlar {
+        width: 100%;
+    }
+    .raqamlar-statistika {
+        justify-content: space-between;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 560px) {
+    .katta-bosh-rasm {
+        flex-direction: column-reverse;
+        padding: 0 18px 40px;
+    }
+    .chap-taraf-yozuvlar h1 {
+        font-size: 40px;
+    }
+    .chap-taraf-yozuvlar p {
+        font-size: 15px;
+    }
+}

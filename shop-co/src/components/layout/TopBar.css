@@ -1,0 +1,12 @@
+.tepa-qora-narsa {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.tepa-qora-narsa a {
+    color: white;
+    text-decoration: underline;
+}

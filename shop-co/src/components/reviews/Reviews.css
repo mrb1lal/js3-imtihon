@@ -1,0 +1,58 @@
+.xursand-odamlar-qismi {
+    padding: 60px 60px 0;
+}
+
+.chapdagi-katta-yozuv {
+    margin-bottom: 36px;
+    font-size: 42px;
+    font-family: 'Integral CF', sans-serif;
+    text-align: center;
+}
+
+.otzivlar-gridi {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.bitta-otziv {
+    background: #fff;
+    border-radius: 24px;
+    padding: 28px;
+    border: 1px solid #f1f1f1;
+}
+
+.yulduzlar {
+    margin-bottom: 14px;
+}
+
+.bitta-otziv h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bitta-otziv p {
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+    .xursand-odamlar-qismi {
+        padding: 50px 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .otzivlar-gridi {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .otzivlar-gridi {
+        grid-template-columns: 1fr;
+    }
+    .chapdagi-katta-yozuv {
+        font-size: 32px;
+    }
+}
