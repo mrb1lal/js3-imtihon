@@ -4,7 +4,7 @@ export default function Banner() {
     return (
         <section className="katta-bosh-rasm">
             <div className="chap-taraf-yozuvlar">
-                <h1>ONE LIFE GRAPHIC T-SHIRT</h1>
+                <h1>ONE LIFE GRAPHIC T-SHIRT.</h1>
                 <p>This graphic t-shirt is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
                 <button className="qop-qora-knopka">Shop Now</button>
                 <div className="raqamlar-statistika">
