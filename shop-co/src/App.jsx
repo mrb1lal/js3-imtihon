@@ -11,7 +11,6 @@ import Footer from './components/footer/Footer';
 import CartSidebar from './components/sidebar/CartSidebar';
 import LikeSidebar from './components/sidebar/LikeSidebar';
 import { products, topSelling } from './data/products';
-import './App.css';
 
 function App() {
     return (
